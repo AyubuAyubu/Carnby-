@@ -1,0 +1,54 @@
+<!DOCTYPE html
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- connection to CSS -->
+    <link rel="stylesheet" href="Assets/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="Assets/bootstrap/css/signup.css" />
+    <!-- Connection to FontAwesomes-->
+    <link
+      rel="stylesheet"
+      href="Assets/fontawesome-free-5.15.4-web/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="Assets/fontawesome-free-5.15.4-web/css/fontawesome.min.css"
+    />
+    <!-- carousel -->
+    <link
+      rel="stylesheet"
+      href="Assets/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="Assets/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css"
+    />
+    <!-- connection to javascript -->
+    <script src="Assets/bootstrap/js/jquery-3.4.0.js"></script>
+    <script src="Assets/bootstrap/js/popper.min.js"></script>
+    <script src="Assets/bootstrap/js/bootstrap.js"></script>
+    <title>Sign Up</title>
+    <!-- ===== Iconscout CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>WELCOME TO SIGN UP FORM</h1>
+       <div class="form">
+          <form action="register_handler.php" method="post">
+            <h2>Register  Here</h2>
+            <input type="text" name="fullName" placeholder="Enter Your Name" required>
+            <input type="email" name="Email" placeholder="Enter Your Email" required>
+            <input type="phone" name="PhoneNumber" placeholder="Enter Your Phone Number" required>
+            <input type="password" name="Passwd" placeholder="Enter Your Password" required>
+            <button class="btnn"  type="submit" value="Submit" name="btn-register">Register</button>
+            <button class="btnn"><a href="index.html">Login Page</a></button>
+          </form>
+       </div>
+  </body>
+</html>

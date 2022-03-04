@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- connection to CSS -->
+    <link rel="stylesheet" href="Assets/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="Assets/bootstrap/css/helpme.css" />
+    <!-- Connection to FontAwesomes-->
+    <link
+      rel="stylesheet"
+      href="Assets/fontawesome-free-5.15.4-web/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="Assets/fontawesome-free-5.15.4-web/css/fontawesome.min.css"
+    />
+    <!-- carousel -->
+    <link
+      rel="stylesheet"
+      href="Assets/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="Assets/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css"
+    />
+    <!-- connection to javascript -->
+    <script src="Assets/bootstrap/js/jquery-3.4.0.js"></script>
+    <script src="Assets/bootstrap/js/popper.min.js"></script>
+    <script src="Assets/bootstrap/js/bootstrap.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help Center</title>
+  </head>
+  <body>
+    <h1
+      style="margin-top: 10px; text-align: center; font-size: 30px; color: #fff"
+    >
+      WELCOME TO HELP CENTER
+    </h1>
+    <div class="container">
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="fab fa-facebook-square"></i>
+            <div class="topic">Facebook</div>
+            <div class="text-one">Carnby Data #001 Page</div>
+            <div class="text-two">Saidi Dawaa Carnby</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">+254790995474</div>
+            <div class="text-two">+254731338571</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">carnbydata@gmail.com</div>
+            <div class="text-two">info.carnbydata@gmail.com</div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="topic-text">Send us a message</div>
+          <p>
+            If you have any difficult or experience prolems with our wifi speed
+            as our client kindly you can send your message from here. It's our
+            pleasure to help you.
+          </p>
+          <form action="client_comment_handler.php" method="post">
+            <div class="input-box">
+              <input
+                type="text"
+                placeholder="Enter your name"
+                name="ClientName"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <input
+                type="text"
+                placeholder="Enter Your Reachable Contact"
+                name="ActiveNumber"
+                required
+              />
+            </div>
+            <div class="input-box message-box">
+              <textarea
+                placeholder="In brief describe the problem"
+                name="ClientComment"
+                required
+                rows="5"
+                cols="50"
+              ></textarea>
+            </div>
+              <div class="btnn" style="border-bottom-right-radius: 5px;
+                                   border-bottom-right-radius: 5px;">
+               <button type="submit" value="Submit" name="btn-help">Ask Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

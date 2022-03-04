@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  background-image: url(myservice.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.container {
+  font-size: 20px;
+  background-color: #ff7200;
+  padding-top: 20px;
+  height: 120px;
+  width: 100%;
+}
+.container h2 {
+  text-align: center;
+}
+.mb-3-speed {
+  color: #fff;
+}

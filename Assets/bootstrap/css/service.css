@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background-image: url(myservice.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.navbar {
+  width: 1400px;
+  height: 75px;
+  margin: auto;
+}
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+.logo {
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+.menu {
+  width: 620px;
+  float: left;
+  height: 70px;
+}
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-left: 38px;
+  margin-top: 27px;
+  font-size: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+  color: #ff7200;
+}
+.mybody h1 {
+  text-align: center;
+  margin: 50px auto 120px !important;
+  color: #ffF;
+}
+.mymain {
+  width: 100%;
+  min-height: 30px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.service {
+  background: #fff;
+  padding: 0px;
+  border-radius: 5px;
+  bottom: 15px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  box-shadow: 0 0 20px -15px #030380;
+  transition: transform 0.8s;
+}
+.service-logo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: -90px auto 0;
+}
+.service-logo img {
+  width: 80px;
+  background: #fff;
+  margin-top: 40px;
+  position: relative;
+}
+.service h4 {
+  padding-top: 20px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.service h4::after {
+  content: "";
+  width: 40px;
+  height: 30px;
+  background: linear-gradient(to right, #fff, black);
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: -1;
+}
+.service h4::before {
+  content: "";
+  width: 40px;
+  height: 30px;
+  background: linear-gradient(to right, #fff, black);
+  position: absolute;
+  left: -5px;
+  bottom: -5px;
+  z-index: -1;
+}
+.container {
+  width: 100%;
+  height: 120%;
+}
+
+@media screen and (max-width: 1170px) {
+  /*Login-box*/
+  .main {
+    padding-left: 20px;
+    height: 180vh;
+  }
+  .btnn a {
+    font-size: 16px;
+  }
+  .form .link a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  /*For tablet*/
+
+  .content {
+    margin-top: 120px;
+    width: 80%;
+    margin-left: 40px;
+  }
+  .content h1,
+  .content span {
+    font-size: 6vw;
+  }
+  .content .par {
+    width: 90%;
+    font-size: 1.8vw;
+  }
+  .content .cn {
+    width: 15%;
+    height: 4.5vw;
+    font-size: 2vw;
+  }
+  .content a {
+    font-size: 2vw;
+  }
+  .logo {
+    margin-left: 240px;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 5vw;
+  }
+  .menu {
+    width: 100%;
+  }
+  ul {
+    margin-top: -5px;
+    margin-left: 5px;
+  }
+  ul li {
+    margin-left: 60px;
+  }
+  ul li a {
+    font-size: 2vw;
+  }
+  .search {
+    margin-top: -20px;
+    margin-left: 60px;
+  }
+  .srch {
+    height: 30px;
+    width: 160px;
+    font-size: 12px;
+  }
+  .btn {
+    height: 30px;
+    width: 70px;
+  }
+  .main {
+    padding-left: 20px;
+    height: 180vh;
+  }
+  .btnn a {
+    font-size: 16px;
+  }
+  .form .link a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /*IPAD*/
+
+  .content {
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+  .search {
+    margin-top: -40px;
+    margin-left: 42px;
+  }
+  .logo {
+    margin-left: 180px;
+    font-size: 4vw;
+  }
+  ul {
+    margin-top: -25px;
+    margin-left: -5px;
+  }
+  ul li {
+    margin-left: 50px;
+  }
+  ul li a {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /*mobile*/
+  .logo {
+    margin-left: 140px;
+    font-size: 4vw;
+  }
+  ul {
+    margin-top: -25px;
+  }
+  ul li {
+    margin-left: 42px;
+  }
+  ul li a {
+    font-size: 2vw;
+  }
+  .search {
+    margin-top: -40px;
+    margin-left: 38px;
+  }
+}
